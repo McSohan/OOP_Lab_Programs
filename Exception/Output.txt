@@ -1,0 +1,94 @@
+/usr/lib/jvm/java-8-oracle/bin/java -javaagent:/opt/idea-IC-173.3727.127/lib/idea_rt.jar=33633:/opt/idea-IC-173.3727.127/bin -Dfile.encoding=UTF-8 -classpath /usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/deploy.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/cldrdata.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/dnsns.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/jaccess.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/jfxrt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/localedata.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/nashorn.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/sunec.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/zipfs.jar:/usr/lib/jvm/java-8-oracle/jre/lib/javaws.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfxswt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/management-agent.jar:/usr/lib/jvm/java-8-oracle/jre/lib/plugin.jar:/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/home/student/1RV18CS195/ExceptionHandling/out/production/ExceptionHandling com.company.Main
+Enter the name of the customer:
+Hello
+Enter 1 to deposit
+Enter 2 to withdraw
+Enter 3 to check current balance
+Anything else to exit
+1
+Enter deposit amount and currency type:
+5001 NEW
+Enter 1 to deposit
+Enter 2 to withdraw
+Enter 3 to check current balance
+Anything else to exit
+1
+Enter deposit amount and currency type:
+5001 OLD
+Deposit of Old Currency of Rs.5001 crosses Rs.5,000, and cannot be deposited
+Enter 1 to deposit
+Enter 2 to withdraw
+Enter 3 to check current balance
+Anything else to exit
+2
+Enter the amount to be withdrawn:
+10000
+Invalid withdrawal - minimum balance not maintained!
+Enter 1 to deposit
+Enter 2 to withdraw
+Enter 3 to check current balance
+Anything else to exit
+3
+Current balance: 5501
+Enter 1 to deposit
+Enter 2 to withdraw
+Enter 3 to check current balance
+Anything else to exit
+1
+Enter deposit amount and currency type:
+5001 NEW
+Enter 1 to deposit
+Enter 2 to withdraw
+Enter 3 to check current balance
+Anything else to exit
+2
+Enter the amount to be withdrawn:
+10000
+Enter 1 to deposit
+Enter 2 to withdraw
+Enter 3 to check current balance
+Anything else to exit
+3
+Current balance: 502
+Enter 1 to deposit
+Enter 2 to withdraw
+Enter 3 to check current balance
+Anything else to exit
+3
+Current balance: 502
+Enter 1 to deposit
+Enter 2 to withdraw
+Enter 3 to check current balance
+Anything else to exit
+2
+Enter the amount to be withdrawn:
+2
+Enter 1 to deposit
+Enter 2 to withdraw
+Enter 3 to check current balance
+Anything else to exit
+3
+Current balance: 500
+Enter 1 to deposit
+Enter 2 to withdraw
+Enter 3 to check current balance
+Anything else to exit
+2
+Enter the amount to be withdrawn:
+1
+Invalid withdrawal - minimum balance not maintained!
+Enter 1 to deposit
+Enter 2 to withdraw
+Enter 3 to check current balance
+Anything else to exit
+1
+Enter deposit amount and currency type:
+30000 OLD
+Deposit of Old Currency of Rs.30000 crosses Rs.5,000, and cannot be deposited
+Enter 1 to deposit
+Enter 2 to withdraw
+Enter 3 to check current balance
+Anything else to exit
+6
+
+Process finished with exit code 0
