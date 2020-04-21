@@ -1,0 +1,25 @@
+package com.company;
+/*
+M C Sohan
+Write a Java program to read two integers a and b.
+Compute a/b and print, when b is not zero. Raise an exception when b is equal to zero.
+ */
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner sn = new Scanner (System.in);
+        int a, b, c;
+            System.out.println("Enter two space separated integers a and b:");
+            a = sn.nextInt();
+            b = sn.nextInt();
+            try {
+                c = a / b;
+                System.out.println("a/b: " + c);
+            } catch (ArithmeticException ae) {
+                System.out.println("Arithmetic Exception: " + ae);
+            }
+    }
+}
