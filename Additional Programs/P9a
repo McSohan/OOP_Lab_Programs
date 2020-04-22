@@ -1,0 +1,26 @@
+package com.company;
+/*
+M C Sohan
+Write the program to count occurrences of a given character using Regex in Java.
+ */
+
+import java.util.Scanner;
+import java.util.regex.*;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        Scanner sn = new Scanner (System.in);
+        int count = 0;
+        System.out.println("Enter the string:");
+        String text = sn.nextLine();
+        System.out.println("Enter character");
+        char ch = sn.next().charAt(0);
+        Pattern pat = Pattern.compile(""+ch);
+        Matcher mat = pat.matcher(text);
+        while (mat.find())
+            count++;
+        System.out.println ("Number of occurrances = " + count);
+    }
+}
