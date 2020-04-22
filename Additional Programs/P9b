@@ -1,0 +1,22 @@
+package com.company;
+/*
+M C Sohan
+Write a program to check if a string contains only alphabets in Java using Regex.
+ */
+
+import java.util.Scanner;
+import java.util.regex.Pattern;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        Scanner sn = new Scanner (System.in);
+        System.out.println("Enter the string:");
+        String text = sn.nextLine();
+        if (Pattern.matches("[[a-z]*[A-Z]*]+",text))
+            System.out.println("Text made of alphabets only");
+        else
+            System.out.println("Text not made of alphabets only");
+    }
+}
